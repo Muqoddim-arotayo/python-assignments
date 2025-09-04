@@ -6,7 +6,7 @@ def add() :
         print(first_value.isdigit())
         result = int(first_value) / int(second_value)
         print(result)
-    except TypeError:
+    except TypeError:   
         print("Input valid integers")
 
 add()
